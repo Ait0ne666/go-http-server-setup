@@ -1,0 +1,31 @@
+postgres_dsn: "postgres://alybehuysifhlk:2297eb12ec844c6f15f989bcd0a15aadd6a680dfc37733818291f9d3fc13fb53@ec2-99-80-170-190.eu-west-1.compute.amazonaws.com:5432/d5pf16h7lna8m1"
+jwtkey: "MyEyesAreOpen"
+
+http:
+  server_port: ":8080"
+
+telegram:
+  telegram_token: "2044267211:AAFYx-xjW-f7y0SqlrAhGiZ3cdF-85KCC2w"
+  chat_id: "-630163408"
+
+sms:
+  sms_url: "https://api.iqsms.ru/messages/v2/send.json"
+  sms_pass: "823594"
+  sms_login: "pknagor2010"
+  sms_sender: "WGSaction"
+
+server_email:
+  host: ""
+  port: 2525
+  login: ""
+  from: ""
+  pass: ""
+  email_unsubscribe: ""
+  email_name_sender: ""
+  email_sender: ""
+
+
+check:
+  url: "https://proverkacheka.com/api/v1/check/get"
+  token: "3442.di6vArZ6cUr7LOq6D"
+
